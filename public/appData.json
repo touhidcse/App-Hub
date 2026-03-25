@@ -1,0 +1,452 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+    "title": "Photo Editor Pro",
+    "companyName": "Creative Tools Inc.",
+    "id": 1,
+    "description": "Professional photo editing with AI-powered filters and advanced retouching tools.",
+    "size": 245,
+    "reviews": 15234,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 452 },
+      { "name": "2 star", "count": 321 },
+      { "name": "3 star", "count": 1234 },
+      { "name": "4 star", "count": 4567 },
+      { "name": "5 star", "count": 8660 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2964/2964515.png",
+    "title": "Fitness Tracker",
+    "companyName": "HealthWare",
+    "id": 2,
+    "description": "Track your workouts, steps, calories, and get personalized fitness plans.",
+    "size": 128,
+    "reviews": 9876,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 189 },
+      { "name": "3 star", "count": 765 },
+      { "name": "4 star", "count": 3210 },
+      { "name": "5 star", "count": 5502 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2917/2917995.png",
+    "title": "Language Master",
+    "companyName": "LingoSoft",
+    "id": 3,
+    "description": "Learn 30+ languages with interactive lessons and native speaker audio.",
+    "size": 512,
+    "reviews": 20345,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 312 },
+      { "name": "2 star", "count": 245 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 5123 },
+      { "name": "5 star", "count": 13775 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2331/2331969.png",
+    "title": "Budget Manager",
+    "companyName": "Finwise Solutions",
+    "id": 4,
+    "description": "Smart budgeting, expense tracking, and bill reminders to manage your finances.",
+    "size": 98,
+    "reviews": 5678,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 123 },
+      { "name": "2 star", "count": 98 },
+      { "name": "3 star", "count": 456 },
+      { "name": "4 star", "count": 1789 },
+      { "name": "5 star", "count": 3212 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2728/2728992.png",
+    "title": "Meditation Moments",
+    "companyName": "Mindful Tech",
+    "id": 5,
+    "description": "Guided meditations, sleep stories, and breathing exercises for relaxation.",
+    "size": 320,
+    "reviews": 32109,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 189 },
+      { "name": "2 star", "count": 123 },
+      { "name": "3 star", "count": 456 },
+      { "name": "4 star", "count": 3456 },
+      { "name": "5 star", "count": 27885 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2867/2867992.png",
+    "title": "Weather Live",
+    "companyName": "SkySoft",
+    "id": 6,
+    "description": "Accurate weather forecasts, radar maps, and severe weather alerts.",
+    "size": 187,
+    "reviews": 45321,
+    "ratingAvg": 4.4,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1023 },
+      { "name": "2 star", "count": 876 },
+      { "name": "3 star", "count": 3456 },
+      { "name": "4 star", "count": 7890 },
+      { "name": "5 star", "count": 32076 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111624.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Music and podcast streaming service with millions of songs and playlists.",
+    "size": 85,
+    "reviews": 12500000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 125000 },
+      { "name": "2 star", "count": 89000 },
+      { "name": "3 star", "count": 234000 },
+      { "name": "4 star", "count": 2450000 },
+      { "name": "5 star", "count": 9702000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 8,
+    "description": "Social media app for sharing photos, videos, and connecting with friends.",
+    "size": 72,
+    "reviews": 9870000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 980000 },
+      { "name": "4 star", "count": 1890000 },
+      { "name": "5 star", "count": 6230000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "Stream movies, TV shows, documentaries, and originals.",
+    "size": 125,
+    "reviews": 7654321,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 98000 },
+      { "name": "2 star", "count": 67000 },
+      { "name": "3 star", "count": 215000 },
+      { "name": "4 star", "count": 1230000 },
+      { "name": "5 star", "count": 6044321 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906324.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 10,
+    "description": "Chat, meet, call, and collaborate with your team all in one place.",
+    "size": 210,
+    "reviews": 3456789,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 123456 },
+      { "name": "2 star", "count": 98765 },
+      { "name": "3 star", "count": 345678 },
+      { "name": "4 star", "count": 987654 },
+      { "name": "5 star", "count": 1899236 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384065.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta",
+    "id": 11,
+    "description": "Simple, reliable, and private messaging and calling app.",
+    "size": 58,
+    "reviews": 11223344,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 550000 },
+      { "name": "3 star", "count": 1700000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 5003344 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2917/2917995.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 12,
+    "description": "Video conferencing, online meetings, and group messaging.",
+    "size": 95,
+    "reviews": 8765432,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 65432 },
+      { "name": "2 star", "count": 54321 },
+      { "name": "3 star", "count": 123456 },
+      { "name": "4 star", "count": 2345678 },
+      { "name": "5 star", "count": 6175545 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046124.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 13,
+    "description": "Short-form mobile videos and live streaming.",
+    "size": 145,
+    "reviews": 6543210,
+    "ratingAvg": 4.6,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 123456 },
+      { "name": "2 star", "count": 98765 },
+      { "name": "3 star", "count": 234567 },
+      { "name": "4 star", "count": 1543210 },
+      { "name": "5 star", "count": 4543212 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Navigate your world with real-time traffic, transit, and local business information.",
+    "size": 180,
+    "reviews": 9876543,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 345678 },
+      { "name": "2 star", "count": 234567 },
+      { "name": "3 star", "count": 876543 },
+      { "name": "4 star", "count": 2345678 },
+      { "name": "5 star", "count": 6070877 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Watch and subscribe to your favorite creators, music, and live streams.",
+    "size": 110,
+    "reviews": 15000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 750000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 8750000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111370.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 16,
+    "description": "Chat, voice call, and hang out with friends and communities.",
+    "size": 210,
+    "reviews": 5432109,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 98765 },
+      { "name": "2 star", "count": 87654 },
+      { "name": "3 star", "count": 234567 },
+      { "name": "4 star", "count": 1234567 },
+      { "name": "5 star", "count": 3778556 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2331/2331970.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 17,
+    "description": "Shop millions of products, track orders, and get exclusive deals.",
+    "size": 165,
+    "reviews": 4321098,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 123456 },
+      { "name": "2 star", "count": 98765 },
+      { "name": "3 star", "count": 345678 },
+      { "name": "4 star", "count": 1098765 },
+      { "name": "5 star", "count": 2656434 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968520.png",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "id": 18,
+    "description": "Professional photo editing and RAW processing tools.",
+    "size": 450,
+    "reviews": 3210987,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 54321 },
+      { "name": "2 star", "count": 43210 },
+      { "name": "3 star", "count": 123456 },
+      { "name": "4 star", "count": 876543 },
+      { "name": "5 star", "count": 2113457 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111625.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 19,
+    "description": "Team communication and collaboration platform.",
+    "size": 220,
+    "reviews": 2109876,
+    "ratingAvg": 4.4,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 43210 },
+      { "name": "2 star", "count": 32109 },
+      { "name": "3 star", "count": 109876 },
+      { "name": "4 star", "count": 654321 },
+      { "name": "5 star", "count": 1270360 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/741/741407.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 20,
+    "description": "Request rides, track your driver, and pay seamlessly.",
+    "size": 185,
+    "reviews": 1987654,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 98765 },
+      { "name": "2 star", "count": 76543 },
+      { "name": "3 star", "count": 234567 },
+      { "name": "4 star", "count": 567890 },
+      { "name": "5 star", "count": 1009889 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 21,
+    "description": "Find jobs, network with professionals, and grow your career.",
+    "size": 125,
+    "reviews": 1876543,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 123456 },
+      { "name": "2 star", "count": 98765 },
+      { "name": "3 star", "count": 345678 },
+      { "name": "4 star", "count": 543210 },
+      { "name": "5 star", "count": 765434 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968709.png",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 22,
+    "description": "Design graphics, presentations, logos, and social media posts.",
+    "size": 135,
+    "reviews": 1765432,
+    "ratingAvg": 4.9,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 12345 },
+      { "name": "2 star", "count": 9876 },
+      { "name": "3 star", "count": 34567 },
+      { "name": "4 star", "count": 234567 },
+      { "name": "5 star", "count": 1475077 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2917/2917995.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 23,
+    "description": "Learn languages for free with fun, bite-sized lessons.",
+    "size": 98,
+    "reviews": 1654321,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 54321 },
+      { "name": "2 star", "count": 43210 },
+      { "name": "3 star", "count": 123456 },
+      { "name": "4 star", "count": 432109 },
+      { "name": "5 star", "count": 1001225 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3536/3536499.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 24,
+    "description": "Discover recipes, home ideas, style inspiration, and more.",
+    "size": 140,
+    "reviews": 1543210,
+    "ratingAvg": 4.5,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 65432 },
+      { "name": "2 star", "count": 54321 },
+      { "name": "3 star", "count": 234567 },
+      { "name": "4 star", "count": 456789 },
+      { "name": "5 star", "count": 732101 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906377.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 25,
+    "description": "Fast, secure, and cloud-based messaging with channels and bots.",
+    "size": 105,
+    "reviews": 1432109,
+    "ratingAvg": 4.6,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 43210 },
+      { "name": "2 star", "count": 32109 },
+      { "name": "3 star", "count": 109876 },
+      { "name": "4 star", "count": 432109 },
+      { "name": "5 star", "count": 814805 }
+    ]
+  }
+]
