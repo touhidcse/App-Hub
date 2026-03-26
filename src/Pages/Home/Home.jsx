@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../../Components/Banner/Banner';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import AppCards from '../AppCards/AppCards'
 
 const Home = () => {
@@ -43,9 +43,7 @@ const Home = () => {
                 <AppCards trendingApps={trendingApps}></AppCards>
             </div>
             <div className='bg-[#F5F5F5] py-6'>
-
-                <a href="" ><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#6F38E6] mx-[43%]"> Show All</button></a>
-
+                <Link to={'/Apps'}><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-[#6F38E6] mx-[43%]"> Show All</button></Link>
             </div>
         </div>
     );

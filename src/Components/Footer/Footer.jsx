@@ -1,5 +1,6 @@
 import React from 'react';
 import logoImage from '../../assets/logo.png'
+import { Link } from 'react-router';
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
 
             <div className='flex justify-between'>
                 <div>
-                    <a className="btn btn-ghost text-xl text-white"> <img src={logoImage} width={20} height={20} /> HERO.IO</a>
+                    <Link to={'/'}><p className="btn btn-ghost text-xl text-cyan-400"><img src={logoImage} width={20} height={20} /> HERO.IO</p></Link>
                 </div>
                 <div>
                     <div>

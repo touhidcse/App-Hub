@@ -1,8 +1,14 @@
 import React from 'react';
 import gitHumImage from '../../assets/github-icon-2.svg'
 import logoImage from '../../assets/logo.png'
+import { Link } from 'react-router';
 
 const NavBar = () => {
+    const links =<>
+    <Link to={'/'}><li className='m-2'>Home</li></Link>
+    <Link to={'/Apps'}><li className='m-2'>Apps</li></Link>
+    <Link to={'/Installation'}><li className='m-2'>Installation</li></Link>
+    </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -13,18 +19,16 @@ const NavBar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>Apps</a></li>
-                        <li><a>Installation</a></li>
+                        
+                        {links}
+                        
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-cyan-400"> <img src={logoImage} width={20} height={20} /> HERO.IO</a>
+                <Link to={'/'}><p className="btn btn-ghost text-xl text-cyan-400"><img src={logoImage} width={20} height={20} /> HERO.IO</p></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a href="">Apps</a></li>
-                    <li><a>Installation</a></li>
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">
