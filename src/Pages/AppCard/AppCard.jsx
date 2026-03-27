@@ -13,7 +13,7 @@ const AppCard = ({ singleApp }) => {
                         <img src={image} className='w-full h-full object-contain' />
                     </figure>
                 </div>
-                <p class="card-title">{title}</p>
+                <p className="card-title">{title}</p>
 
                 <div className='flex justify-between'>
                     <p class="flex text-sm gap-2 bg-gray-200 text-green-400"> <img src={downloadIcon} width={20} height={20} />  {downloads}</p>

@@ -12,13 +12,13 @@ const NavBar = () => {
             <li className='m-2'>Home</li>
         </NavLink>
 
-        <NavLink to='/Apps' className={({ isActive }) => isActive
+        <NavLink to='/apps' className={({ isActive }) => isActive
             ? "text-white bg-blue-500 rounded"
             : ""}>
             <li className='m-2'>Apps</li>
         </NavLink>
 
-        <NavLink to='/Installation' className={({ isActive }) => isActive
+        <NavLink to='/installation' className={({ isActive }) => isActive
             ? "text-white bg-blue-500 rounded"
             : ""}>
             <li className='m-2'>Installation</li>

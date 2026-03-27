@@ -10,7 +10,7 @@ const ReviewChart = ({ ratings}) => {
 //    console.log(appChartRatingData)
     return (
         <div>
-            <BarChart width={1200} height={250} data={appChartRatingData} layout="vertical">
+            <BarChart width={900} height={250} data={appChartRatingData} layout="vertical">
                 <XAxis type="number" axisLine={false} tickLine={false} 
                 />
                 <YAxis dataKey="name" type="category" reversed axisLine={false} tickLine={false} />
