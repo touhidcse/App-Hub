@@ -1,13 +1,28 @@
 import React from 'react';
 import gitHumImage from '../../assets/github-icon-2.svg'
 import logoImage from '../../assets/logo.png'
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 
 const NavBar = () => {
-    const links =<>
-    <Link to={'/'}><li className='m-2'>Home</li></Link>
-    <Link to={'/Apps'}><li className='m-2'>Apps</li></Link>
-    <Link to={'/Installation'}><li className='m-2'>Installation</li></Link>
+    const links = <>
+        <NavLink to='/' end
+            className={({ isActive }) => isActive
+                ? "text-white bg-blue-500 rounded"
+                : ""}>
+            <li className='m-2'>Home</li>
+        </NavLink>
+
+        <NavLink to='/Apps' className={({ isActive }) => isActive
+            ? "text-white bg-blue-500 rounded"
+            : ""}>
+            <li className='m-2'>Apps</li>
+        </NavLink>
+
+        <NavLink to='/Installation' className={({ isActive }) => isActive
+            ? "text-white bg-blue-500 rounded"
+            : ""}>
+            <li className='m-2'>Installation</li>
+        </NavLink>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
@@ -19,12 +34,12 @@ const NavBar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        
+
                         {links}
-                        
+
                     </ul>
                 </div>
-                <Link to={'/'}><p className="btn btn-ghost text-xl text-cyan-400"><img src={logoImage} width={20} height={20} /> HERO.IO</p></Link>
+                <NavLink to={'/'}><p className="btn btn-ghost text-xl text-cyan-400"><img src={logoImage} width={20} height={20} /> HERO.IO</p></NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
