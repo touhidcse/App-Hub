@@ -31,21 +31,32 @@ const Installation = () => {
         toast("App Uninstalled");
     };
 
-    const handleSort = (type) => {
-        setSort(type)
-        if (type === "High-Low") {
+    const parseDownloads = (value) => {
+        if (!value) return 0;
 
-            const sortedByDownloadsASC = [...installedList].sort((a, b) => a.downloads - b.downloads)
-            setInstalledList(sortedByDownloadsASC)
+        const num = parseFloat(value);
+
+        if (value.includes("B")) return num * 1_000_000_000;
+        if (value.includes("M")) return num * 1_000_000;
+        if (value.includes("K")) return num * 1_000;
+
+        return num;
+    };
+    const handleSort = (type) => {
+        setSort(type);
+
+        let sorted = [];
+
+        if (type === "High-Low") {
+            sorted = [...installedList].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
         }
 
         if (type === "Low-High") {
-
-            const sortedByDownloadsDSC = [...installedList].sort((a, b) => b.downloads - a.downloads)
-            setInstalledList(sortedByDownloadsDSC)
+            sorted = [...installedList].sort((a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads));
         }
-    }
 
+        setInstalledList(sorted);
+    };
 
     return (
         <div className='bg-[#F5F5F5]'>
@@ -69,7 +80,7 @@ const Installation = () => {
             </div>
 
             {
-                installedList.map((a) => ( <InstalledApps key={a.id} singleApp={a} onUninstall={handleUninstall}/>))
+                installedList.map((a) => (<InstalledApps key={a.id} singleApp={a} onUninstall={handleUninstall} />))
             }
         </div>
     );
